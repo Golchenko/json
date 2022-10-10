@@ -1,5 +1,72 @@
 {
-
-    "namdde": "StickyIO Connect",
-    
+  "app": {
+    "name": "Stax Bill Connect Connect",
+    "short_description": "Manage your Stax Bill Connect customers, their subscriptions and charges, seamlessly, within the CRM of your choice.",
+    "long_description": "Manage your Stax Bill Connect customers, their subscriptions and charges, seamlessly, within the CRM of your choice.",
+    "installation_instructions": "Simply click install."
+  },
+  "default": {
+    "app_header": {
+      "customer_tab": "Customer",
+      "search_tab": "Search"
+    },
+    "searchOptions": {
+      "title": "Customer field",
+      "subtitle": "Choose field to search for customer by",
+      "close": "Close",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "first_last_name": "First and Last Name",
+      "first_name": "First Name",
+      "last_name": "Last Name"
+    },
+    "search": {
+      "label": "Search by ",
+      "default_search_option": "Search by Email"
+    },
+    "subscriptions": {
+      "subscriptions_title": "Subscriptions",
+      "subscriptions_status_active": "Active",
+      "subscriptions_status_draft": "Draft",
+      "subscriptions_status_cancelled": "Cancelled",
+      "subscriptions_button_cancel": "Cancel",
+      "subscriptions_started": "Started",
+      "subscriptions_cnext_harge": "Next charge",
+      "subscriptions_cancelled_date": "Cancelled on",
+      "charges_title": "Charges",
+      "charges_button_refund": "Refund",
+      "charges_status_unpaid": "Unpaid",
+      "charges_status_paid": "Purchased",
+      "charges_status_refunded": "Refunded"
+    },
+    "users": {
+      "email": "Email",
+      "phone": "Phone",
+      "created": "Created"
+    },
+    "alert": {
+      "no_users_found": "No users found",
+      "select_customer": "You must a select a customer first",
+      "cancellation_succsess": "The subscription was successfully cancelled",
+      "refund_success": "The charge was successfully refunded",
+      "incorrect_email": "Incorrect e-mail"
+    },
+    "overlay": {
+      "canceling_subscription": "Canceling subscription",
+      "refunding_charge": "refunding Charge",
+      "search_by_email": "Searching for customer by email address",
+      "search_by_phone": "Searching for customer by phone number",
+      "search_by_first_last_name": "Searching for customer by first and last name",
+      "search_by_last_name": "Searching for customer by last name",
+      "search_by_first_name": "Searching for customer by first name",
+      "gathering_customer_data": "Gathering customer data"
+    },
+    "private_message": {
+      "user_name": "Name",
+      "subscription": "Subscription",
+      "status": "Status",
+      "id": "ID",
+      "amount": "Amount"
+    }
   }
+}
