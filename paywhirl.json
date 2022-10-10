@@ -1,4 +1,64 @@
 {
- 
-    "dddd": "PayWhirl Connect"
+  "app": {
+    "name": "PayWhirl Connect",
+    "short_description": "Manage your PayWhirl customers, their subscriptions and charges, seamlessly, within the CRM of your choice.",
+    "long_description": "Manage your PayWhirl customers, their subscriptions and charges, seamlessly, within the CRM of your choice.",
+    "installation_instructions": "Simply click install."
+  },
+  "default": {
+    "app_header": {
+      "customer_tab": "Customer",
+      "search_tab": "Search"
+    },
+    "search": {
+      "label": "Search by email"
+    },
+    "subscriptions": {
+      "subscriptions_title": "Subscriptions",
+      "subscriptions_status_active": "Active",
+      "subscriptions_status_draft": "Draft",
+      "subscriptions_status_canceled": "Canceled",
+      "subscriptions_button_cancel": "Cancel",
+      "subscriptions_started": "Started",
+      "subscriptions_cnext_harge": "Next charge",
+      "subscriptions_canceled_date": "Canceled",
+      "subscriptions_plan_daily": "daily",
+      "subscriptions_plan_weekly": "weekly",
+      "subscriptions_plan_monthly": "monthly",
+      "subscriptions_plan_yearly": "yearly",
+      "subscriptions_plan_dates": "specific dates",
+      "charges_title": "Charges",
+      "charges_button_refund": "Refund",
+      "charges_status_unpaid": "Unpaid",
+      "charges_status_paid": "Purchased",
+      "charges_status_refunded": "Refunded"
+    },
+    "users": {
+      "email": "Email",
+      "phone": "Phone",
+      "created": "Created"
+    },
+    "alert": {
+      "no_users_found": "No users found",
+      "select_customer": "You must a select a customer first",
+      "cancellation_succsess": "The subscription was successfully canceled",
+      "refund_success": "The charge was successfully refunded",
+      "incorrect_email": "Incorrect e-mail",
+      "error": "Something goes wrong"
+    },
+    "overlay": {
+      "canceling_subscription": "Canceling subscription",
+      "refunding_charge": "Refunding charge",
+      "searching": "Searching for customer",
+      "gathering_customer_data": "Gathering customer data"
+    },
+    "private_message": {
+      "user_name": "Name",
+      "subscription": "Subscription",
+      "status": "Status",
+      "status_canceled": "Canceled",
+      "status_refund": "Refund payment for invoice",
+      "amount": "Amount"
+    }
   }
+}
