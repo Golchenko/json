@@ -1,1 +1,76 @@
-
+{
+  "app": {
+    "name": "Pabbly Connect",
+    "short_description": "Manage your Pabbly customers, their subscriptions and charges, seamlessly, within the CRM of your choice.",
+    "long_description": "Manage your Pabbly customers, their subscriptions and charges, seamlessly, within the CRM of your choice.",
+    "installation_instructions": "Simply click install."
+  },
+  "default": {
+    "app_header": {
+      "customer_tab": "Customer",
+      "search_tab": "Search"
+    },
+    "search": {
+      "label": "Search by Email"
+    },
+    "subscriptions": {
+      "subscriptions_title": "Subscriptions",
+      "subscriptions_status_active": "Active",
+      "subscriptions_status_draft": "Draft",
+      "subscriptions_status_cancelled": "Cancelled",
+      "subscriptions_status_expired": "Expired",
+      "subscriptions_status_nonrenewing": "Nonrenewing",
+      "subscriptions_button_cancel": "Cancel",
+      "subscriptions_started": "Started",
+      "subscriptions_created": "Created",
+      "subscriptions_next_charge": "Next charge",
+      "subscriptions_cancelled_date": "Cancelled",
+      "subscriptions_plan_weekly": "Weekly",
+      "subscriptions_plan_monthly": "Monthly",
+      "subscriptions_plan_yearly": "Yearly",
+      "subscriptions_bill_every": "Every",
+      "subscriptions_plan_weeks": "weeks",
+      "subscriptions_plan_months": "months",
+      "subscriptions_plan_years": "years",
+      "subscriptions_plan_one_time": "One-Time",
+      "subscriptions_purchased": "Purchased",
+      "charges_title": "Charges",
+      "charges_button_refund": "Refund",
+      "charges_status_unpaid": "Unpaid",
+      "charges_status_paid": "Purchased",
+      "charges_status_refunded": "Refunded"
+    },
+    "users": {
+      "email": "Email",
+      "phone": "Phone",
+      "created": "Created"
+    },
+    "alert": {
+      "no_users_found": "No users found",
+      "select_customer": "You must a select a customer first",
+      "cancellation_succsess": "The subscription was successfully cancelled",
+      "refund_success": "The charge was successfully refunded",
+      "incorrect_email": "Incorrect e-mail",
+      "error": "Something goes wrong"
+   },
+    "overlay": {
+      "canceling_subscription": "Canceling subscription",
+      "refunding_charge": "refunding Charge",
+      "search_by_email": "Searching for customer by email address",
+      "search_by_phone": "Searching for customer by phone number",
+      "search_by_first_last_name": "Searching for customer by first and last name",
+      "search_by_last_name": "Searching for customer by last name",
+      "search_by_first_name": "Searching for customer by first name",
+      "gathering_customer_data": "Gathering customer data"
+    },
+    "private_message": {
+      "user_name": "Name",
+      "subscription": "Subscription",
+      "status": "Status",
+      "status_success": "Successfully canceled",
+      "status_refunded": "Successfully refunded invoice",
+      "id": "ID",
+      "amount": "Amount"
+    }
+  }
+}
